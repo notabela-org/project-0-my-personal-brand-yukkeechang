@@ -1,0 +1,21 @@
+@font-face {
+  font-family: sentinel;
+  src:url('fonts/Sentinel.ttf');
+}
+
+@font-face {
+  font-family: apercu-regular;
+  src:url('fonts/Apercu/Apercu Pro Regular.otf');
+}
+@font-face {
+  font-family: apercu-regular;
+  src:url('fonts/Apercu/Apercu Pro Regular.otf');
+}
+
+body{
+  margin: 0;
+  font-family: sentinel;
+}
+p{
+  font-family: apercu-regular;
+}
