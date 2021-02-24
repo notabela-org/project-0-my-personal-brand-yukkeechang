@@ -32,15 +32,15 @@ body{
   height: 10%;
   font-family: sentinel;
   font-size: 50px;
-  padding-top: 5%;
+  
 }
 
 .subTitle{
   margin-left: 5%;
   margin-right: 1%;
-  width: 60%;
+  width: 70%;
   font-family: apercu-regular;
-  font-size: 32px;
+  font-size: 30px;
 }
 
 .boxOne{
