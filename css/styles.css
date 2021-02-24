@@ -16,6 +16,59 @@ body{
   margin: 0;
   font-family: sentinel;
 }
-p{
+
+.apercu{
   font-family: apercu-regular;
+}
+
+.sentinel{
+  font-family: sentinel;
+}
+
+.title{
+  margin-left: 5%;
+  margin-right: 1%;
+  width: 50%;
+  height: 10%;
+  font-family: sentinel;
+  font-size: 50px;
+  padding-top: 5%;
+}
+
+.subTitle{
+  margin-left: 5%;
+  margin-right: 1%;
+  width: 40%;
+  font-family: apercu-regular;
+  font-size: 32px;
+}
+
+.boxOne{
+  flex-direction: row;
+  margin-left: 3%;
+  margin-right: 3%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-image: linear-gradient(#FFFFFF, #FFFFFF, #D3E4F9, #BAD6F9);
+  width: 95%;
+  height: 300px
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+}
+
+.btn:hover {
+  background: #eee;
+  border-radius: 10px
+}
+
+.white {
+
 }
