@@ -28,7 +28,7 @@ body{
 .title{
   margin-left: 5%;
   margin-right: 1%;
-  width: 50%;
+  width: 60%;
   height: 10%;
   font-family: sentinel;
   font-size: 50px;
@@ -38,21 +38,47 @@ body{
 .subTitle{
   margin-left: 5%;
   margin-right: 1%;
-  width: 40%;
+  width: 60%;
   font-family: apercu-regular;
   font-size: 32px;
 }
 
 .boxOne{
+  display: flex;
   flex-direction: row;
   margin-left: 3%;
   margin-right: 3%;
+  margin-top: 3%;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   background-image: linear-gradient(#FFFFFF, #FFFFFF, #D3E4F9, #BAD6F9);
   width: 95%;
-  height: 300px
+  height: 400px
 }
+
+.boxTwo{
+  display: flex;
+  flex-direction: row;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 3%;
+  background: linear-gradient(90deg, #9597D5 50%, #FFFFFF 50%);
+  width: 95%;
+  height: 400px
+}
+
+.boxThree{
+  display: flex;
+  flex-direction: row;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 3%;
+  background-color: #D8E7F9;
+  width: 95%;
+  height: 400px
+}
+
+
 
 .btn {
   border: none;
